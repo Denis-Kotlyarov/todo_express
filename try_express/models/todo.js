@@ -77,7 +77,7 @@ class Todo {
                 if (err) {
                     rej(err);
                 } else {
-                    res(id);
+                    res();
                 }
             })
         })
